@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goldex Fitness</title>
+</head>
+    <link rel="stylesheet" href="css/s0tyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Poppins:ital,wght@1,100&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Bungee+Shade&family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(Img/bg_2.jpg);
+        background-repeat: no-repeat;
+        height: 1280px;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 20px;
+        top: 8px;
+        width: 333px;
+    }
+
+    .left img {
+        width: 78px;
+        padding: 6px;
+        border-radius: 80%;
+        padding-bottom: 5px;
+    }
+
+    .left div {
+        font-family: 'Bungee Shade', cursive;
+        font-size: 21px;
+        line-height: 132%;
+        text-align: center;
+        float: right;
+        padding-top: 32px;
+        padding-right: 15px;
+    }
+
+    .mid {
+        font-family: 'Bubblegum Sans', cursive;
+        display: inline-flex;
+        left: 471px;
+        position: absolute;
+        width: 42.5%;
+        left: 500px;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 22px;
+        top: 35px;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 23px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 15px 24px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: grey;
+        text-decoration: underline;
+    }
+
+    .btn {
+        font-family: 'Bubblegum Sans', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 5px 17px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(67, 64, 64);
+    }
+    .container{
+        border: 2px solid blue;
+        margin: 67px 67px;
+        padding: 75px;
+        width: 30%;
+        border-radius: 30px;
+        position: absolute;
+        top: 100px;
+    }
+    .container h1{
+        font-family: 'Bubblegum Sans', cursive;
+        font-size: 23px;
+        text-align: center;
+    }
+    .form-group input{
+        font-family: 'Bubblegum Sans', cursive;
+        text-align: center;
+        display: block;
+        width: 445px;
+        padding: 3px;
+        border: 2px solid black;
+        margin: 5px auto;
+        font-size: 20px;
+        border-radius: 8px;
+    }
+    .container button{
+        display: block;
+        margin: 20px auto;
+        width: 50%;
+    }
+
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="Img/logo_2.jpg" alt="" position="absolute">
+            <div>Goldex Fitness</div>
+        </div>
+        <!-- Middle Box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- Right Box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button><button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the most renowned gym one can ever think of!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Contact No.">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Eamil-Id">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
